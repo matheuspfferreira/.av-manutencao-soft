@@ -1,0 +1,12 @@
+Parte B - Métricas de complexidade
+
+a) M =  18 - 13 + 2P. 
+M = 5 + 2 * 1
+M = 5 + 2
+M = 7
+
+b) Profundidade máxima de aninhamento: nível 6.
+
+c) Acoplamento entre objetos: 3, acoplada a MatriculaRepository, PagamentoService e NotificadorEmail.
+
+d) Essas métricas ajudam a prever dificuldade de manutenção e compreensão pois realizam cálculos para objetivos específicos no código, como a complexidade de um método, o nível de aninhamento das condicionais e o CBO, sobre quantos objetos a classe está dependente. Com isso, o desenvolvedor consegue compreender o que está poluindo o código, trazendo complexidade extra desnecessárias e atrapalhando o entendimento da lógica, podendo assim refatorar o programa mantendo o objetivo dele, porém simplificando a escrita e consequentemente toda manutenção futura.
